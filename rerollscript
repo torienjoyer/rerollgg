@@ -1,0 +1,238 @@
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
+
+local w = library:CreateWindow("reroll.gg")
+
+local b = w:CreateFolder("love melynas11")
+
+b:Label("mia khalifa gaming",{
+    TextSize = 25;
+    TextColor = Color3.fromRGB(255,255,255);
+    BgColor = Color3.fromRGB(69,69,69);
+    
+})
+
+
+local loopToggle = false
+b:Toggle("Auto Open Booster Cases", function(bool)
+    loopToggle = bool
+    if loopToggle then
+        print("Loop started.")
+        while loopToggle do
+            local ohString1 = "booster_case"
+            local ohNumber2 = 3
+            game:GetService("ReplicatedStorage").Remotes.OpenCase:InvokeServer(ohString1, ohNumber2)
+            wait(1)
+        end
+    else
+        print("Loop stopped.")
+    end
+end)
+
+local loop1Toggle = false
+b:Toggle("Auto Open Clutch Cases", function(bool)
+    loop1Toggle = bool
+    if loop1Toggle then
+        print("Loop started.")
+        while loop1Toggle do
+            local ohString1 = "clutch_case"
+            local ohNumber2 = 3
+            game:GetService("ReplicatedStorage").Remotes.OpenCase:InvokeServer(ohString1, ohNumber2)
+            wait(1)
+        end
+    else
+        print("Loop stopped.")
+    end
+end)
+
+local loop2Toggle = false
+b:Toggle("Auto Open Bravo Cases", function(bool)
+    loop2Toggle = bool
+    if loop2Toggle then
+        print("Loop started.")
+        while loop2Toggle do
+            local ohString1 = "bravo_case"
+            local ohNumber2 = 3
+            game:GetService("ReplicatedStorage").Remotes.OpenCase:InvokeServer(ohString1, ohNumber2)
+            wait(1)
+        end
+    else
+        print("Loop stopped.")
+    end
+end)
+
+local loop3Toggle = false
+b:Toggle("Auto Open 25/75 Cases", function(bool)
+    loop3Toggle = bool
+    if loop3Toggle then
+        print("Loop started.")
+        while loop3Toggle do
+            local ohString1 = "25_75_Case"
+            local ohNumber2 = 1
+            game:GetService("ReplicatedStorage").Remotes.OpenCase:InvokeServer(ohString1, ohNumber2)
+            wait(1)
+        end
+    else
+        print("Loop stopped.")
+    end
+end)
+
+local loop4Toggle = false
+b:Toggle("Auto Open Nightmare Cases", function(bool)
+    loop4Toggle = bool
+    if loop4Toggle then
+        print("Loop started.")
+        while loop4Toggle do
+            local ohString1 = "nightmare_case"
+            local ohNumber2 = 1
+            game:GetService("ReplicatedStorage").Remotes.OpenCase:InvokeServer(ohString1, ohNumber2)
+            wait(1)
+        end
+    else
+        print("Loop stopped.")
+    end
+end)
+
+local loop5Toggle = false
+b:Toggle("Auto Open Shattered Web Cases", function(bool)
+    loop5Toggle = bool
+    if loop5Toggle then
+        print("Loop started.")
+        while loop5Toggle do
+            local ohString1 = "shattered_web_case"
+            local ohNumber2 = 3
+            game:GetService("ReplicatedStorage").Remotes.OpenCase:InvokeServer(ohString1, ohNumber2)
+            wait(1)
+        end
+    else
+        print("Loop stopped.")
+    end
+end)
+
+local loop6Toggle = false
+b:Toggle("Auto Open Corrupted Cases", function(bool)
+    loop6Toggle = bool
+    if loop6Toggle then
+        print("Loop started.")
+        while loop6Toggle do
+            local ohString1 = "corrupted_case"
+            local ohNumber2 = 1
+            game:GetService("ReplicatedStorage").Remotes.OpenCase:InvokeServer(ohString1, ohNumber2)
+            wait(1)
+        end
+    else
+        print("Loop stopped.")
+    end
+end)
+
+local loop7Toggle = false
+b:Toggle("Auto Open Gamma Cases", function(bool)
+    loop7Toggle = bool
+    if loop7Toggle then
+        print("Loop started.")
+        while loop7Toggle do
+            local ohString1 = "gamma_case"
+            local ohNumber2 = 3
+            game:GetService("ReplicatedStorage").Remotes.OpenCase:InvokeServer(ohString1, ohNumber2)
+            wait(1)
+        end
+    else
+        print("Loop stopped.")
+    end
+end)
+
+local loop8Toggle = false
+b:Toggle("Auto Open Breakout Cases", function(bool)
+    loop8Toggle = bool
+    if loop8Toggle then
+        print("Loop started.")
+        while loop8Toggle do
+            local ohString1 = "breakout_case"
+            local ohNumber2 = 3
+            game:GetService("ReplicatedStorage").Remotes.OpenCase:InvokeServer(ohString1, ohNumber2)
+            wait(1)
+        end
+    else
+        print("Loop stopped.")
+    end
+end)
+
+local loop9Toggle = false
+b:Toggle("Auto Open Neon Operation Cases", function(bool)
+    loop9Toggle = bool
+    if loop9Toggle then
+        print("Loop started.")
+        while loop9Toggle do
+            local ohString1 = "neon_operation_case"
+            local ohNumber2 = 3
+            game:GetService("ReplicatedStorage").Remotes.OpenCase:InvokeServer(ohString1, ohNumber2)
+            wait(1)
+        end
+    else
+        print("Loop stopped.")
+    end
+end)
+
+local loop10Toggle = false
+b:Toggle("Auto Open Dream Cases", function(bool)
+    loop10Toggle = bool
+    if loop10Toggle then
+        print("Loop started.")
+        while loop10Toggle do
+            local ohString1 = "dream_case"
+            local ohNumber2 = 1
+            game:GetService("ReplicatedStorage").Remotes.OpenCase:InvokeServer(ohString1, ohNumber2)
+            wait(1)
+        end
+    else
+        print("Loop stopped.")
+    end
+end)
+
+local loop11Toggle = false
+b:Toggle("Auto Open Highest Roller Cases", function(bool)
+    loop11Toggle = bool
+    if loop11Toggle then
+        print("Loop started.")
+        while loop11Toggle do
+            local ohString1 = "highest_roller_case"
+            local ohNumber2 = 1
+            game:GetService("ReplicatedStorage").Remotes.OpenCase:InvokeServer(ohString1, ohNumber2)
+            wait(1)
+        end
+    else
+        print("Loop stopped.")
+    end
+end)
+
+local loop12Toggle = false
+b:Toggle("Auto Open Chroma Cases", function(bool)
+    loop11Toggle = bool
+    if loop12Toggle then
+        print("Loop started.")
+        while loop12Toggle do
+            local ohString1 = "chroma_case"
+            local ohNumber2 = 1
+            game:GetService("ReplicatedStorage").Remotes.OpenCase:InvokeServer(ohString1, ohNumber2)
+            wait(1)
+        end
+    else
+        print("Loop stopped.")
+    end
+end)
+
+local loop13Toggle = false
+b:Toggle("Auto Open High Roller Cases", function(bool)
+    loop13Toggle = bool
+    if loop13Toggle then
+        print("Loop started.")
+        while loop13Toggle do
+            local ohString1 = "high_roller_case"
+            local ohNumber2 = 1
+            game:GetService("ReplicatedStorage").Remotes.OpenCase:InvokeServer(ohString1, ohNumber2)
+            wait(1)
+        end
+    else
+        print("Loop stopped.")
+    end
+end)
+
